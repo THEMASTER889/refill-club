@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Refill Club — the monthly Australian restock list</title>
+    <meta
+      name="description"
+      content="A short monthly list of staples worth restocking in Australia — and the gadgets to skip. Cancel any time."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="wrap site-header">
+      <a class="brand" href="#">Refill Club</a>
+      <nav aria-label="Page">
+        <a href="#how">How it works</a>
+        <a href="#sample">This month</a>
+        <a href="#join">Join</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="wrap hero">
+        <div>
+          <h1>Stop buying junk. Restock what you will actually use up.</h1>
+          <p class="lede">
+            Once a month you get a short Australian list: staples worth
+            putting on repeat, supermarket vs Amazon, and what to skip.
+            Written for people who want recurring basics, not TikTok
+            gadgets.
+          </p>
+          <a class="btn" data-checkout href="#join">Join Refill Club — <span data-price>A$9 / month</span></a>
+          <p class="fine">Cancel any time. One email a month. No app to learn.</p>
+        </div>
+        <aside class="panel" id="join">
+          <p class="price">Membership · <span data-price>A$9 / month</span></p>
+          <h2>What you get</h2>
+          <ul>
+            <li>A restock list you can finish in ten minutes</li>
+            <li>What to subscribe to, and what to buy at Coles/Woolies</li>
+            <li>A skip list so you do not waste money on one-off junk</li>
+          </ul>
+          <a class="btn" data-checkout href="#join">Start membership</a>
+          <p class="fine" id="checkout-hint">
+            Checkout runs through Lemon Squeezy. You will get a receipt by
+            email.
+          </p>
+          <p class="notice" id="checkout-notice" role="status">
+            Checkout is not connected yet. Open <code>js/config.js</code>
+            and paste your Lemon Squeezy URL (see the README). Until then,
+            nobody can pay — which is what you want while you set up the
+            store.
+          </p>
+        </aside>
+      </section>
+
+      <section class="wrap" id="how">
+        <h2>How it works</h2>
+        <div class="grid-3">
+          <article class="card">
+            <h3>1. Subscribe</h3>
+            <p>Pay monthly. Cancel in Lemon Squeezy whenever you want.</p>
+          </article>
+          <article class="card">
+            <h3>2. Get the list</h3>
+            <p>One email with this month’s buy / subscribe / skip notes.</p>
+          </article>
+          <article class="card">
+            <h3>3. Restock</h3>
+            <p>Buy only what you will use up again in 30–90 days.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="wrap" id="sample">
+        <p class="kicker">Member preview · September 2026</p>
+        <h2>A taste of the list</h2>
+        <div class="sample">
+          <article class="card">
+            <h3>Buy</h3>
+            <p>
+              Dishwasher tablets on per-wash price. Same pet food you
+              already feed. Body wash you already like — not a new scent.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Skip</h3>
+            <p>
+              Viral gadgets with no refill cycle. Giant paper bales that
+              lose to the supermarket after postage. Variety snack boxes.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="wrap faq" id="faq">
+        <h2>Questions</h2>
+        <details>
+          <summary>Is this a shopping service?</summary>
+          <p>
+            No. We do not buy or ship products for you. You get a list.
+            You buy where you already shop.
+          </p>
+        </details>
+        <details>
+          <summary>Will this save me money?</summary>
+          <p>
+            Sometimes. The point is to stop spending on things you will
+            not repurchase. Prices move; the list is research, not a
+            guarantee.
+          </p>
+        </details>
+        <details>
+          <summary>How do I cancel?</summary>
+          <p>
+            Use the customer portal link in your Lemon Squeezy receipt
+            email. No phone call.
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <footer class="wrap site-footer">
+      <p>
+        Refill Club · Australia · Lists are general information, not
+        financial advice. Add your ABN here when you have one.
+      </p>
+    </footer>
+
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://app.lemonsqueezy.com/js/lemon.js" defer></script>
+  </body>
+</html>

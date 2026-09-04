@@ -1,0 +1,17 @@
+{
+  "name": "Refill Club",
+  "install": "test -f index.html && echo 'Refill Club static site ready'",
+  "terminals": [
+    {
+      "name": "web",
+      "command": "python3 -m http.server 3000 --bind 0.0.0.0",
+      "description": "Static file server for the Refill Club site. Open http://localhost:3000 to view the page."
+    }
+  ],
+  "ports": [
+    {
+      "name": "web",
+      "port": 3000
+    }
+  ]
+}
